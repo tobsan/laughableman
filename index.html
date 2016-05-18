@@ -5,20 +5,27 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="application/javascript">
+<!--
+function laughable_play() { document.getElementById("laughable").play(); }
+//-->
+    </script>
 </head>
 <body>
     <div id="main">
     <h1 class="shadow">
         Laughable, man!
     </h1>
-    <audio controls preload="auto">
+    <audio preload="auto" id="laughable">
         <source src="laughable.ogg" type="audio/ogg">
         <source src="laughable.mp3" type="audio/mpeg">
         Your browser does not support the audio element. :(
     </audio>
-    <blockquote cite="https://en.wikiquote.org/wiki/The_Big_Lebowski">
-        <i class="shadow">"Nobody fucks with the Jesus"</i>
-    </blockquote>
+    <button onClick="laughable_play()" />
+        <blockquote cite="https://en.wikiquote.org/wiki/The_Big_Lebowski">
+            <i class="shadow">"Nobody fucks with the Jesus"</i>
+        </blockquote>
+    </button>
     </div>
     <footer>
         <p>Brought to you by tobsan (tobsan [at] tobsan [dot] se)</p>
