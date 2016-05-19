@@ -16,7 +16,7 @@ body {
     width: 50vw;
     height: 80vh;
     text-align: center;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
 }
 
 footer {
@@ -24,7 +24,7 @@ footer {
     margin-right: auto 10%;
     width: 50vw;
     height: 10vh;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
     text-align: center;
 }
 
