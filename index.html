@@ -12,23 +12,25 @@ function laughable_play() { document.getElementById("laughable").play(); }
     </script>
 </head>
 <body onClick="laughable_play()">
-    <div id="main">
-    <h1 class="shadow">
-        Laughable, man!
-    </h1>
-    <audio preload="auto" id="laughable">
-        <source src="laughable.ogg" type="audio/ogg">
-        <source src="laughable.mp3" type="audio/mpeg">
-        Your browser does not support the audio element. :(
-    </audio>
-    <button onClick="laughable_play()" />
-        <blockquote cite="https://en.wikiquote.org/wiki/The_Big_Lebowski">
-            <i class="shadow">"Nobody fucks with the Jesus"</i>
-        </blockquote>
-    </button>
-    </div>
-    <footer>
-        <p>Brought to you by <a href="http://tobsan.se/">tobsan</a></p>
-    </footer>
+    <marquee>
+        <div id="main">
+            <h1 class="shadow">
+                Laughable, man!
+            </h1>
+            <audio preload="auto" id="laughable">
+                <source src="laughable.ogg" type="audio/ogg">
+                <source src="laughable.mp3" type="audio/mpeg">
+                <blink>Your browser does not support the audio element. :(</blink>
+            </audio>
+            <button onClick="laughable_play()" />
+                <blockquote cite="https://en.wikiquote.org/wiki/The_Big_Lebowski">
+                    <i class="shadow">"Nobody fucks with the Jesus"</i>
+                </blockquote>
+            </button>
+        </div>
+        <footer>
+            <p>Brought to you by <a href="http://tobsan.se/">tobsan</a></p>
+        </footer>
+    </marquee>
 </body>
 </html>
