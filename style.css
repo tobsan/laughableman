@@ -2,12 +2,13 @@ body {
     font-family: sans;
     margin: 0px;
     padding: 0px;
+    background-color: #BBB;
 }
 
 header {
     width: 100%;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
     margin: 0px;
 
     background-color: #999;
@@ -25,8 +26,8 @@ section {
 
 footer {
     width: 100%;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 
     background-color: #999;
     text-align: center;
