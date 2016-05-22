@@ -2,24 +2,23 @@ body {
     font-family: sans;
     margin: 0px;
     padding: 0px;
+    background-image: url("nobody_fucks.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
-    width: 100%;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-right: 3vw;
     margin: 0px;
-
-    background-color: #999;
-    text-align: center;
+    text-align: right;
 }
 
 section {
     width: 100%;
     padding-top: 3vh;
     padding-bottom: 3vh;
-
-    background-color: #BBB;
     text-align: center;
 }
 
@@ -27,16 +26,16 @@ footer {
     width: 100%;
     padding-top: 3vh;
     padding-bottom: 3vh;
-
-    background-color: #999;
     text-align: center;
 }
 
+/*
 #jesus {
     background-image: url("jesus.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
-    min-height: 50vh;
+    min-height: 75vh;
 }
+*/
 
