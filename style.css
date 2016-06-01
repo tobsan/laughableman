@@ -13,6 +13,7 @@ footer {
 @media only screen and (max-aspect-ratio: 2/1) {
     header, footer, #nobody_fucks {
         width: 100%;
+        margin: 0px;
     }
 
     header {
