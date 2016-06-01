@@ -1,34 +1,43 @@
 body {
     font-family: sans;
-    
     background-color: #8e696a;
-    background-image: url("nobody_fucks.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
 
-    width: 100vw;
-    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
 
-header {
-    text-align: right;
-    
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-right: 3vw;
+footer {
+    text-align: center;
 }
 
-footer {
-    text-align: right;
+@media only screen and (max-aspect-ratio: 2/1) {
+    header, footer, #nobody_fucks {
+        width: 100%;
+    }
 
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-right: 3vw;
+    header {
+        text-align: center;
+        padding-bottom: 5vh;
+    }
+}
 
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
+@media only screen and (min-aspect-ratio: 2/1) {
+    #nobody_fucks {
+        height: 100vh;
+        float: left;
+    }
+
+    header {
+        text-align: right;
+        float: right;
+        padding-right: 3vw;
+        padding-top: 3vh;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 3vh;
+        right: 3vw;
+    }
 }
 
