@@ -10,7 +10,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-aspect-ratio: 2/1) {
+@media only screen and (max-aspect-ratio: 3/2) {
     header, footer, #nobody_fucks {
         width: 100%;
         margin: 0px;
@@ -22,7 +22,7 @@ footer {
     }
 }
 
-@media only screen and (min-aspect-ratio: 2/1) {
+@media only screen and (min-aspect-ratio: 3/2) {
     #nobody_fucks {
         height: 100vh;
         float: left;
