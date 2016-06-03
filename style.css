@@ -1,5 +1,5 @@
 body {
-    font-family: sans;
+    font-family: sans-serif;
     background-color: #8e696a;
 
     margin: 0px;
@@ -10,6 +10,7 @@ footer {
     text-align: center;
 }
 
+
 @media only screen and (max-aspect-ratio: 4/3) {
     header, footer, #nobody_fucks {
         width: 100%;
@@ -19,6 +20,10 @@ footer {
     header {
         text-align: center;
         padding-bottom: 5vh;
+    }
+
+    h1 {
+        font-size: calc(4vw + 4vh + 2vmin);
     }
 }
 
