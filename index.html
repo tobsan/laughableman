@@ -14,7 +14,7 @@ function play() { document.getElementById("laughable").play(); }
 //-->
     </script>
 </head>
-<body onClick="play()">
+<body>
     <audio preload="auto" id="laughable" autoplay>
         <source src="laughable.ogg" type="audio/ogg">
         <source src="laughable.mp3" type="audio/mpeg">
@@ -27,7 +27,7 @@ function play() { document.getElementById("laughable").play(); }
             <b><i>"Nobody fucks with the Jesus"</i></b>
         </blockquote>
     </header>
-    <img src="nobody_fucks.svg" id="nobody_fucks" alt="A picture of Jesus Quintana"/>
+    <img src="nobody_fucks.svg" id="nobody_fucks" alt="A picture of Jesus Quintana" onClick="play()" />
     <footer>
         <p>
             <a href="http://tobsan.se/">tobsan.se</a> |
